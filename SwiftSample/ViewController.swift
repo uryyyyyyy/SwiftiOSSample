@@ -9,7 +9,7 @@ class ViewController: UIViewController {
         
         let button = UIButton(frame: CGRect(x: 100, y: 100, width: 200, height: 50))
         button.backgroundColor = .gray
-        button.setTitle("ページ遷移するよ", for: .normal)
+        button.setTitle("Story1", for: .normal)
         
         self.view.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -91,6 +91,7 @@ class ViewController: UIViewController {
             action in NSLog("いいえボタンが押されました")
         }
         
+        //self.navigationController!.setNavigationBarHidden(true, animated: true)
         // addActionした順に左から右にボタンが配置されます
         alertController.addAction(otherAction)
         alertController.addAction(cancelAction)
