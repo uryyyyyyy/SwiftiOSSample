@@ -15,6 +15,7 @@
 		E7FE0A061E642B5A0035CEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FE0A041E642B5A0035CEA3 /* LaunchScreen.storyboard */; };
 		E7FE0A111E642B5B0035CEA3 /* SwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FE0A101E642B5B0035CEA3 /* SwiftSampleTests.swift */; };
 		E7FE0A1C1E642B5B0035CEA3 /* SwiftSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FE0A1B1E642B5B0035CEA3 /* SwiftSampleUITests.swift */; };
+		E7FE0A2A1E642C410035CEA3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FE0A291E642C410035CEA3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E7FE0A171E642B5B0035CEA3 /* SwiftSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FE0A1B1E642B5B0035CEA3 /* SwiftSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSampleUITests.swift; sourceTree = "<group>"; };
 		E7FE0A1D1E642B5B0035CEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FE0A291E642C410035CEA3 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E7FE0A041E642B5A0035CEA3 /* LaunchScreen.storyboard */,
 				E7FE0A071E642B5A0035CEA3 /* Info.plist */,
 				E7FE09FF1E642B5A0035CEA3 /* SwiftSample.xcdatamodeld */,
+				E7FE0A291E642C410035CEA3 /* SecondViewController.swift */,
 			);
 			path = SwiftSample;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FE0A2A1E642C410035CEA3 /* SecondViewController.swift in Sources */,
 				E7FE09FB1E642B5A0035CEA3 /* ViewController.swift in Sources */,
 				E7FE0A011E642B5A0035CEA3 /* SwiftSample.xcdatamodeld in Sources */,
 				E7FE09F91E642B5A0035CEA3 /* AppDelegate.swift in Sources */,
